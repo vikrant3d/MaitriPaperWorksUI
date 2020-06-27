@@ -1,6 +1,19 @@
 
 
 	$(document).ready(function () {
+		$(".filter").click(function (){
+			
+			$(".filter").removeClass("active");
+			$(".item").hide();
+			
+			$(this).addClass("active");
+			$("."+$(this).attr('data-id')).show();
+			
+			if("all" == $(this).attr('data-id')){
+				$(".item").show();
+			}
+		})
+		
 		$(document).on("scroll", onScroll);
  
 		$('a[href^="#"]').on('click', function (e) {
