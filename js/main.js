@@ -31,8 +31,14 @@
 			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
 				$('ul.nav li a').removeClass("navactive");
 				currentLink.addClass("navactive");
+				if($(currentLink).attr('href') == '#top'){
+					$("#mainLabel").html("Morya EnterPrises")
+				}
 			}
 			else{
+				if($(currentLink).attr('href') == '#top'){
+					$("#mainLabel").html("Maitri PaperWorks")
+				}
 				currentLink.removeClass("navactive");
 			}
 		});
@@ -44,9 +50,4 @@
                 transitionSpeed: 350
             });
         });
-
-          $(function() {
-            $( "#datepicker" ).datepicker();
-        });
-    
-    };
+   };
