@@ -95,10 +95,11 @@ p.desc-text{
 } 
 
 li.item{
-    position: relative; 
+   position: relative;
     width: 100%; /* for IE 6 */
-
-    background: rgba(211, 15, 34, 1);
+    /* padding-right: 20px; */
+    border: 1px solid #ddd;
+    width: 299px;
 }
 
 .icon_knife {

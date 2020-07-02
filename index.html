@@ -15,12 +15,22 @@
         <link rel="icon" href="images/logo.png" type="image/x-icon">
 		<style>
 		#portfolio .item h2 {
-			font-size: 17px;
+			font-size: 14px;
+		}
+		#portfolio .item {	
+			display: inline-block;
+			opacity: 1;
+		}
+		td,th{
+			text-align:center;
 		}
 		@media only screen and (max-width: 600px) {		  
 		  .starter_container {			   
 				background: url('images/steak_m.jpg') no-repeat center center;				
 			}
+		  .mobileImgSize{
+				width:250px;
+			}		
 		}
 		</style>
     </head>
@@ -47,7 +57,7 @@
                             <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
                             <li><a class="color_animation" href="#story">ABOUT</a></li>
                             <li><a class="color_animation" href="#pricing">PRICING</a></li>
-							 <li><a class="color_animation" href="#contact">ORDER NOW</a></li>
+							 <li><a class="color_animation" href="#ordernow">ORDER NOW</a></li>
                             <li><a class="color_animation" href="#contact">CONTACT</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -73,7 +83,7 @@
                 <div class="col-md-6">
                     <div class="img-section">
 						<br><br><br>
-                       <img src="images/Maitri_Paperworks.JPG" >
+                       <img src="images/Maitri_Paperworks.JPG" class="mobileImgSize">
                    </div>
                 </div>
             </div>
@@ -87,75 +97,15 @@
              <div class="pricing background_content">
                 <h1><span>Affordable</span> pricing</h1>
              </div>
-            <div class="text-content container"> 
+            <div class="text-content container" > 
                 <div class="container">
                     <div class="row">
                         <div id="w">
-                            <ul id="filter-list" class="clearfix">
-                                <li class="filter active" data-id="all">All Products</li>
-                                <li class="filter" data-id="thali">Patravali</li>
-                                <li class="filter" data-id="dish">Paper Dish</li>
-                                <li class="filter" data-id="dona">Paper Dona</li>
-                                <li class="filter" data-id="spoon">Spoon</li>
-								<li class="filter" data-id="tissue">Tissue Paper</li>
-								<li class="filter" data-id="glass">Paper Glass</li>
+                            <ul id="filter-list" class="clearfix mainListClass">
+                                
                             </ul><!-- @end #filter-list -->    
                             <ul id="portfolio">
-								<li class="item thali"><img src="images/Products/Thali/Thali_Flat_Silver+White_Rs.70.JPG" alt="Food" >
-                                    <h2 class="white">30-piece, Silver/White Flat, Rs 70</h2>
-                                </li>
-								<li class="item thali"><img src="images/Products/Thali/Thali_Leaf_Rs.40.JPG" alt="Food" >
-                                    <h2 class="white">30-piece, Leaf, Rs 40</h2>
-                                </li>
-								<li class="item thali"><img src="images/Products/Thali/Thali_Silver_Rs.60.JPG" alt="Food" >
-                                    <h2 class="white">30-piece, Silver, Rs 60</h2>
-                                </li>
-								<li class="item thali"><img src="images/Products/Thali/Thali_Silver+Brown_Poly_Rs.65.JPG" alt="Food" >
-                                    <h2 class="white">30-piece, Silver/Brown Poly, Rs 65</h2>
-                                </li>
-								<li class="item thali"><img src="images/Products/Thali/Thali_Silver+White_Poly_Rs.70.JPG" alt="Food" >
-                                    <h2 class="white">30-piece, Silver/White Poly, Rs 70</h2>
-                                </li>
-
-                                <li class="item dish"><img src="images/Products/Dish/Dish_Silver_4_inch_Rs.20.jpg" alt="Food" >
-                                    <h2 class="white">30-piece, Silver Color, 4-inch, Rs 20</h2>
-                                </li>
-								<li class="item dish"><img src="images/Products/Dish/Dish_Silver_5_inch_Rs.30.jpg" alt="Food" >
-                                    <h2 class="white">30-piece, Silver Color, 5-inch, Rs 20</h2>
-                                </li>
-								<li class="item dish"><img src="images/Products/Dish/Dish_White_4_inch_Rs.15.jpg" alt="Food" >
-                                    <h2 class="white">30-piece, White Color, 4-inch, Rs 50</h2>
-                                </li>
-								<li class="item dish"><img src="images/Products/Dish/Dish_White_5_inch_Rs.25.jpg" alt="Food" >
-                                    <h2 class="white">30-piece, White Color, 5-inch, Rs 25</h2>
-                                </li>
-
-								<li class="item dona"><img src="images/Products/Dona/Dona_Silver_Rs.12.jpg" alt="Food" >
-                                    <h2 class="white">30-piece, Silver Color, Rs 25</h2>
-                                </li>
 								
-								<li class="item glass"><img src="images/Products/Glass/Cold_Drink_Glass_120ml_Rs.40.jpg" alt="Food" >
-                                    <h2 class="white">50-piece, Cold Drink 120ml, Rs 40</h2>
-                                </li>
-								<li class="item glass"><img src="images/Products/Glass/Ice_Cream_Cup_120ml_Rs.45.JPG" alt="Food" >
-                                    <h2 class="white">50-piece, Ice-Cream 120ml, Rs 45</h2>
-                                </li>
-								<li class="item glass"><img src="images/Products/Glass/Tea_Glass_90ml_Rs.25.JPG" alt="Food" >
-                                    <h2 class="white">50-piece, Tea Glass 90ml, Rs 25</h2>
-                                </li>
-								<li class="item glass"><img src="images/Products/Glass/Water_Glass_160ml_Rs.60.JPG" alt="Food" >
-                                    <h2 class="white">50-piece, Water Glass 160ml, Rs 60</h2>
-                                </li>
-								
-								<li class="item spoon"><img src="images/Products/Spoon/Spoon_100_Pieces_Rs.25.JPG" alt="Food" >
-                                    <h2 class="white">100-piece, Plastic Spoon, Rs 25</h2>
-                                </li>
-								
-								<li class="item tissue"><img src="images/Products/Tissue/Tissue_Paper_Rs.13.JPG" alt="Food" >
-                                    <h2 class="white">100-piece, Tissue Paper, Rs 13</h2>
-                                </li>
-
-                                
                             </ul><!-- @end #portfolio -->
                         </div><!-- @end #w -->
                     </div>
@@ -165,13 +115,32 @@
 
 
 
-        <!-- ============ Reservation  ============= -->
-
-        <section  id="reservation"  class="description_content">
-            <div class="featured background_content">
-                <h1>Reserve a Table!</h1>
+		<section id="ordernow" class="ordernow_connect" style="margin:top:25px">
+            <div class="container"> 
+			<div class="row" align="center">
+			<img src="images/ordernow.png" class="mobileImgSize"/>
+			</div>
+			<div class="row" >
+			<div class="table-responsive" id="cartImgDiv" align="center"><img src="images/shopping_cart_empty.jpg" class="mobileImgSize" /></div>
+              <div class="table-responsive" id="cartTableDiv">
+					<table class="table table-striped table-bordered table-hover" >
+						  <thead> 
+							<tr><th>Sr No.</th>
+							<th>Image</th>
+							<th>Product Name</th>
+							<th>Qty</th>
+							<th>Remove</th>							
+							</tr>
+						  </thead> 
+							<tbody id="cartTable">	
+							</tbody>
+					</table>		
+				</div>			
+                </div>
             </div>
-            <div class="text-content container"> 
+        
+            
+            <div class="text-content container" style="margin-bottom: 102px;"> 
                 <div class="inner contact">
                     <!-- Form Area -->
                     <div class="contact-form">
@@ -181,43 +150,35 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-8 col-md-6 col-xs-12">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                     <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6" style="margin-bottom: 30px;">
                                                 <!-- Name -->
-                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
-                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
-                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="State" />
-                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
-                                            </div>
+                                                <input type="text" name="name" id="name" required="required" class="form" placeholder="Customer Name" />
+                                                <input type="text" name="Phone" id="Phone" required="required" class="form" placeholder="Mobile No" />
+                                                <input type="text" name="email" id="email" required="required" class="form" placeholder="Email Id" />
+												<input type="button" class="text-center form-btn form-btn" value="Submit Order" onClick="return submitOrder(this)"/>
+												
+											</div>
 
                                             <div class="col-lg-6 col-md-6 col-xs-6">
                                                 <!-- Name -->
-                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
-                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
-                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
-                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                                            </div>
+                                               <textarea id="message"  style="height:202px" class="form" placeholder="Additional Message"></textarea>
+                                             </div>
 
-                                            <div class="col-xs-6 ">
-                                                <!-- Send Button -->
-                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button> 
-                                            </div>
-                                            
                                         </div>
-                                    </div>
-                                    
-                                    <div class="col-lg-4 col-md-6 col-xs-12">
+										</div>
+										 <div class="col-lg-4 col-md-6 col-xs-12">
                                         <!-- Message -->
                                         <div class="right-text">
-                                            <h2>Hours</h2><hr>
-                                            <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
-                                            <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
-                                            <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
-                                            <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
-                                            <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
+										    <h2>Order Message</h2><hr>
+                                            <p>If order is more than Rs 10,000. Then we provide free delivery service within Navi-Mumbai</p>
+                                            <p>Order below Rs 200 are not acceptable.</p>     
+											<p>Money can be pay using PayTM, GooglePay, BHIM-UPI, COD.</p>     
+											<p>We accept bulk orders for Weddings, Party, Birthday etc..</p>  
+											
                                         </div>
                                     </div>
-                                </div>
+										</div>
                             </div>
                             <!-- Clear -->
                             <div class="clear"></div>
@@ -227,25 +188,7 @@
             </div>
         </section>
 
-        <!-- ============ Social Section  ============= -->
-      
-        <section class="social_connect">
-            <div class="text-content container"> 
-                <div class="col-md-4">
-                    <span class="social_heading">FOLLOW</span>
-                    <ul class="social_icons">
-                        <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
-                        <li><a class="icon-github color_animation" href="#" target="_blank"></a></li>
-                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
-                        <li><a class="icon-mail color_animation" href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-8">
-                    <span class="social_heading">OR DIAL</span>
-                    <span class="social_info" style="color: white !important;font-size: xx-large;">8928757584 / 9082419631 / 8898620151</span>
-                </div>
-            </div>
-        </section>
+     
 
         <!-- ============ Contact Section  ============= -->
 
@@ -254,41 +197,62 @@
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3181922061226!2d73.02578301421096!3d18.961549860488976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3ab9e4a3d45%3A0xac7ae9b492764c8b!2sMaitri%20Paperworks!5e0!3m2!1sen!2sin!4v1593091836455!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="inner contact">
-                            <!-- Form Area -->
-                            <div class="contact-form">
-                                <!-- Form -->
-                                <form id="contact-us" method="post" action="contact.php">
-                                    <!-- Left Inputs -->
-                                    <div class="col-md-6 ">
-                                        <!-- Name -->
-                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-                                        <!-- Email -->
-                                        <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
-                                        <!-- Subject -->
-                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                                    </div><!-- End Left Inputs -->
-                                    <!-- Right Inputs -->
-                                    <div class="col-md-6">
+                                <div class="row" style="margin-top:100px;margin-bottom:100px">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                 <h2>Contact Us</h2>
+												 <hr>
+												 <p>Mobile No: 08928757584</p>
+												 <br>
+												 <a  class="text-center form-btn form-btn" href="tel:+91-89287-57584" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call now</a>
+                                               
+												</div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <h2>Address</h2><hr>
+												<p>Shop No.2, Sahdev Nivas, Near Hanuman Mandir</p>
+												<p>Jawale, Navi Mumbai, 410 206</p>
+												<p>Navi Mumbai, Maharashtra 410206, India</p>
+												<br><br>
+												<a  class="text-center form-btn form-btn" href="https://www.google.com/maps/dir//Maitri+Paperworks/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be7c3ab9e4a3d45:0xac7ae9b492764c8b!2m2!1d73.0279717!2d18.9615448" target="_blank" data-tracking-element-type="6" jslog="56039; track:impression,click">Get directions</a>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
                                         <!-- Message -->
-                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-                                    </div><!-- End Right Inputs -->
-                                    <!-- Bottom Submit -->
-                                    <div class="relative fullwidth col-xs-12">
-                                        <!-- Send Button -->
-                                        <button type="submit" id="submit" name="submit" class="form-btn">Send Message</button> 
-                                    </div><!-- End Bottom Submit -->
-                                    <!-- Clear -->
-                                    <div class="clear"></div>
-                                </form>
-                            </div><!-- End Contact Form Area -->
-                        </div><!-- End Inner -->
-                    </div>
-                </div>
-            </div>
+                                        <div class="right-text">
+                                            <h2>Business Hours</h2><hr>
+                                            <p>Mon:	Open 24 hours</p>
+                                            <p>Tue:	Open 24 hours</p>
+                                            <p>Wed:	Open 24 hours</p>
+                                            <p>Thu:	Open 24 hours</p>
+                                            <p>Fri:	Open 24 hours</p>
+											<p>Sat:	Open 24 hours</p>
+											<p>Sun:	Open 24 hours</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
         </section>
+		
+		
+		<div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modalLabel"></h5>
+			  </div>
+			  <div class="modal-body" id="modal-body-content">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-primary" id="closeButton" onClick="return closePopup()">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>	
+		
 
         <!-- ============ Footer Section  ============= -->
 
@@ -302,10 +266,9 @@
         </footer>
 
 
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/jquery.min.js"> </script>
         <script type="text/javascript" src="js/bootstrap.min.js" ></script>
-        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
-        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+       
         <script type="text/javascript" src="js/main.js" ></script>
 
     </body>
