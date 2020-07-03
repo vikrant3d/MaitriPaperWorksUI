@@ -1,34 +1,50 @@
 var productMap = {};
 function mainList(){
 	var map = {};
-	map["main-1"]="All Products";
-	map["main-2"]="Patravali";
-	map["main-3"]="Paper Dish";
-	map["main-4"]="Paper Dona";
-	map["main-5"]="Spoon";
-	map["main-6"]="Tissue Paper";
-	map["main-7"]="Paper Glass";		
+	map["main-1"]="ALL PRODUCTS";
+	map["main-2"]="PATRAVALI (THALI)";
+	map["main-3"]="DISH";
+	map["main-4"]="DONA";
+	map["main-5"]="PAPER GLASS";
+	map["main-6"]="TISSUE PAPER";
+	map["main-7"]="SPOON";
 	createMainList(map);
 }
 
-function productList(){	
-	productMap["product-1"]="Silver-White Flat Thali#main-2#This dish was design by silver foil paper from both side It is made in circular shape with small design.<br><br><b>Quantity: 25 piece per packet </b><br><br><b>Price: Rs 70 per packet. </b>";
-	productMap["product-2"]="Brown Leaf Dish#main-2#It is mainly made from Sal leaves and Banyan tree leaves. It is made in circular shape and compartment inside, by stitching 6 to 8 sal leaves with tiny wooden sticks.<br><br><b>Quantity: 25 piece per packet </b><br><br><b>Price: Rs 40 per packet. </b>";
-	productMap["product-3"]="Silver Both Side Thali#main-2#It is mainly made from Silver foil paper from both side. It is made in circular shape and compartment inside.<br><br><b>Quantity: 25 piece per packet </b><br><br><b>Price: Rs 60 per packet. </b>";
-	productMap["product-4"]="Silver-White Brown Ploy#main-2#It is mainly made from Silver/White foil paper and Brown paper. It is made in circular shape and compartment inside.<br><br><b>Quantity: 25 piece per packet </b><br><br><b>Price: Rs 65 per packet. </b>";
-	productMap["product-5"]="Silver-White White Poly#main-2#It is mainly made from Silver/White foil paper and White paper. It is made in circular shape and compartment inside.<br><br><b>Quantity: 25 piece per packet </b><br><br><b>Price: Rs 70 per packet. </b>";
-	productMap["product-6"]="Silver Dish 4-inch#main-3#This dish was design by silver foil paper from both side.<br><br><b>Quantity: 30 piece per packet </b><br><br><b>Size: 4-inch</b><br><br><b>Price: Rs 20 per packet. </b>";
-	productMap["product-7"]="Silver Dish 5-inch#main-3#This dish was design by silver foil paper from both side.<br><br><b>Quantity: 30 piece per packet </b><br><br><b>Size: 5-inch</b><br><br><b>Price: Rs 30 per packet. </b>";
-	productMap["product-8"]="White Dish 4-inch#main-3#This dish was design by white paper from both side.<br><br><b>Quantity: 30 piece per packet </b><br><br><b>Size: 4-inch</b><br><br><b>Price: Rs 15 per packet. </b>";
-	productMap["product-9"]="White Dish 5-inch#main-3#This dish was design by white paper from both side.<br><br><b>Quantity: 30 piece per packet </b><br><br><b>Size: 5-inch</b><br><br><b>Price: Rs 25 per packet. </b>";
-	productMap["product-10"]="Silver Dona#main-4#This Dona was design by silver paper from both side.<br><br><b>Quantity: 30 piece per packet </b><br><br><b>Price: Rs 12 per packet. </b>";
-	productMap["product-11"]="Plastic White Spoon#main-5#This small is white in color made with plastic.<br><br><b>Quantity: 100 piece per packet </b><br><br><b>Price: Rs 12 per packet. </b>";
-	productMap["product-12"]="Tissue Paper#main-6#This soft tissue paper used for handwash, They are white in color.<br><br><b>Quantity: 100 piece per packet </b><br><br><b>Price: Rs 13 per packet. </b>";
-	productMap["product-13"]="Cold Drink Glass#main-7#This glass is used for Cold Drink, Made up of white paper with brown design from all corners, very handy to use.<br><br><b>Quantity: 50 piece per packet </b><br><br><b>Size: 120 ml of capacity. </b><br><br><b>Price: Rs 40 per packet. </b>";
-	productMap["product-14"]="IceCream Cup#main-7#This glass is used for Ice-cream, Made up of white paper, very handy to use.<br><br><b>Quantity: 50 piece per packet </b><br><br><b>Size: 120 ml of capacity. </b><br><br><b>Price: Rs 45 per packet. </b>";
-	productMap["product-15"]="Tea Glass#main-7#This glass is used for Tea Drink, Made up of white paper, very handy to use.<br><br><b>Quantity: 50 piece per packet </b><br><br><b>Size: 90 ml of capacity. </b><br><br><b>Price: Rs 25 per packet. </b>";
-	productMap["product-16"]="Water Glass#main-7#This glass is used for Water Drink, Made up of white paper with brown design from all corners, very handy to use.<br><br><b>Quantity: 50 piece per packet </b><br><br><b>Size: 160 ml of capacity. </b><br><br><b>Price: Rs 60 per packet. </b>";	
-	createProductList(productMap);	
+function productList(){
+	productMap["product-1"]="<strong>SILVER WHITE FLAT THALI</strong>#main-2#<p><strong>COLOUR:&nbsp; &nbsp; &nbsp;&nbsp;</strong>Silver above and white below</p><p><strong>SHAPE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Round shape with no compartments</p><p><strong>QUANTITY:</strong>&nbsp; 25 pieces per packet</p><p><strong>PRICE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Rs.70 per packet</p>";
+
+	productMap["product-2"]="<strong>LEAF THALI</strong>#main-2#<p><strong>COLOUR:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp;&nbsp;</span>Brown colour. Made of 8-10 stitched sal leaves</p><p><strong>SHAPE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>Round shape with 3 compartments</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>13 Inches</p><p><strong>QUANTITY:</strong> &nbsp;25 pieces per packet</p><p><strong>PRICE:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rs.40 per packet</p>";
+
+	productMap["product-3"]="<strong>SILVER THALI</strong>#main-2#<p><strong>COLOUR:</strong><span style='white-space:pre;'>&nbsp; &nbsp;&nbsp; </span>Silver above and white below</p><p><strong>SHAPE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>Round shape with 3 compartments</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>13 Inches</p><p><strong>QUANTITY:</strong>&nbsp; 25 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.60 per packet</p>";
+
+	productMap["product-4"]="<strong>SILVER-BROWN (BROWN POLY) THALI</strong>#main-2#<p><strong>COLOUR: &nbsp; &nbsp; &nbsp;</strong>Silver above and brown below. This thali is thick &amp; hard than usual</p><p><strong>SHAPE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Round shape with 3 compartments.</p><p><strong>SIZE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>13 Inches</p><p><strong>QUANTITY: &nbsp;</strong>25 pieces per packet</p><p><strong>PRICE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Rs.65 per packet</p>";
+
+	productMap["product-5"]="<strong>SILVER-WHITE (WHITE POLY) THALI</strong>#main-2#<p><strong>COLOUR: &nbsp; &nbsp; &nbsp;</strong>Silver above and white below. This thali thick &amp; hard than usual</p><p><strong>SHAPE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Round shape with 3 compartments.</p><p><strong>SIZE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>13 Inches</p><p><strong>QUANTITY: &nbsp;</strong>25 piece per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.70 per packet</p>";
+
+	productMap["product-6"]="<strong>SILVER DISH (SMALL)</strong>#main-3#<p><strong>COLOUR: &nbsp; &nbsp; &nbsp;</strong>Silver above and white below.</p><p><strong>SHAPE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>Round shape with no compartments</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>4 Inches</p><p><strong>QUANTITY:</strong>&nbsp; 30 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.30 per packet</p>";
+
+	productMap["product-7"]="<strong>SILVER DISH (BIG)</strong>#main-3#<p><strong>COLOUR: &nbsp; &nbsp; &nbsp;</strong>Silver above and white below.</p><p><strong>SHAPE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>Round shape with no compartments</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>5 Inches</p><p><strong>QUANTITY: &nbsp;</strong>30 pieces per packet</p><p><strong>PRICE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Rs.35 per packet</p>";
+
+	productMap["product-8"]="<strong>PAPER DISH (SMALL)</strong>#main-3#<p><strong>COLOUR: &nbsp; &nbsp; &nbsp;</strong>White paper on both sides</p><p><strong>SHAPE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Round shape with no compartments</p><p><strong>SIZE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>4 Inches</p><p><strong>QUANTITY: &nbsp;</strong>30 pieces per packet</p><p><strong>PRICE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Rs.15 per packet</p>";
+
+	productMap["product-9"]="<strong>PAPER DISH (BIG)</strong>#main-3#<p><strong>COLOUR:&nbsp; &nbsp; &nbsp;&nbsp;</strong>White paper on both sides.</p><p><strong>SHAPE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Round shape with no compartments</p><p><strong>SIZE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>5 Inches</p><p><strong>QUANTITY: &nbsp;</strong>30 pieces per packet</p><p><strong>PRICE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Rs.20 per packet</p>";
+
+	productMap["product-10"]="<strong>SILVER DONA</strong>#main-4#<p><strong>COLOUR: &nbsp; &nbsp; &nbsp;</strong>Silver above and white below</p><p><strong>SHAPE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>Round shape with liquid&nbsp;</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>3 Inches</p><p><strong>QUANTITY: &nbsp;</strong>30 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.10 per packet</p>";
+
+	productMap["product-11"]="<strong>WATER GLASS</strong>#main-5#<p><strong>MATERIAL:</strong>&nbsp; Paper</p><p><strong>COLOUR:</strong>&nbsp; &nbsp; &nbsp; Descent colour</p><p><strong>SIZE:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 160 ml</p><p><strong>QUANTITY:</strong>&nbsp; 50 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.60 per packet</p>";
+
+	productMap["product-12"]="<strong>COLD DRINK GLASS</strong>#main-5#<p><strong>MATERIAL:</strong>&nbsp; Paper</p><p><strong>COLOUR:</strong>&nbsp; &nbsp; &nbsp; Descent colour</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp;&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 120 ml</p><p><strong>QUANTITY:</strong>&nbsp; 50 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.40 per packet</p>";
+
+	productMap["product-13"]="<strong>TEA GLASS</strong>#main-5#<p><strong>MATERIAL:</strong> Paper</p><p><strong>COLOUR:</strong>&nbsp; &nbsp; &nbsp;Descent colour</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp;&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 90 ml</p><p><strong>QUANTITY: &nbsp;</strong>50 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.25 per packet</p>";
+
+	productMap["product-14"]="<strong>ICE-CREAM CUP</strong>#main-5#<p><strong>MATERIAL:</strong>&nbsp; Paper</p><p><strong>COLOUR:</strong>&nbsp; &nbsp; &nbsp; Descent colour</p><p><strong>SIZE:</strong><span style='white-space:pre;'>&nbsp; &nbsp;&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 120 ml Base</p><p><strong>QUANTITY: &nbsp;</strong>50 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.45 per packet</p>";
+
+	productMap["product-15"]="<strong>TISSUE PAPER</strong>#main-6#<p><strong>COLOUR:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp;&nbsp;</span>Soft white tissue for wiping and cleaning</p><p><strong>SHAPE:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>Square with 4 folds</p><p><strong>QUANTITY: &nbsp;</strong>50 pieces per packet</p><p><strong>PRICE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Rs.45 per packet</p>";
+
+	productMap["product-16"]="<strong>SPOON</strong>#main-7#<p><strong>COLOUR:</strong><span style='white-space:pre;'>&nbsp; &nbsp; &nbsp;&nbsp;</span>Bright white</p><p><strong>SIZE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>4 Inches</p><p><strong>QUANTITY: &nbsp;</strong>100 pieces per packet</p><p><strong>PRICE:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>Rs.25 per packet</p>";
+
+	createProductList(productMap);
 }
 
 	$(document).ready(function () {
