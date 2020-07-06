@@ -147,7 +147,7 @@ function closePopup(){
 
 function submitOrder(obj){
 	if($("#cartTable > tr").length == 0){
-		alert("Please add some Item in cart befor placing Order.");
+		alert("Please add some Item in cart before placing Order.");
 		return false;
 	}
     
