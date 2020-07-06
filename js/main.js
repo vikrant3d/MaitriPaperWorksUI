@@ -13,35 +13,20 @@ function mainList(){
 
 function productList(){
 	productMap["product-1"]="<strong>SILVER FLAT THALI</strong>#main-2#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Silver above and white below</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong><br></td><td class='popUpTable'>Round shape with no compartments<br></td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong><br></td><td class='popUpTable'>25 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong><br></td><td class='popUpTable'>Rs.70 per packet<br></td></tr></tbody></table>";
-
 	productMap["product-2"]="<strong>LEAF THALI</strong>#main-2#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Brown colour. Made of 8-10 stitched sal leaves</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with 3 compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>13 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>25 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE:</strong></td><td class='popUpTable'>Rs.40 per packet</td></tr></tbody></table>";
-
 	productMap["product-3"]="<strong>SILVER THALI</strong>#main-2#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Silver above and white below</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with 3 compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>13 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>25 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.60 per packet</td></tr></tbody></table>";
-
-	productMap["product-4"]="<strong>SILVER-BROWN THALI</strong>#main-2#<table><tbody><tr>	<td class='popUpTable'><strong>COLOUR:</strong></td>	<td class='popUpTable'>Silver above and brown below. This thali is thick &amp; hard than usual</td></tr><tr>	<td class='popUpTable'><strong>SHAPE:</strong></td>	<td class='popUpTable'>Round shape with 3 compartments</td></tr><tr>	<td class='popUpTable'><strong>SIZE</strong></td>	<td class='popUpTable'>13 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>25 pieces per packet</td></tr><tr>	<td class='popUpTable'><strong>PRICE: &nbsp;</strong></td>	<td class='popUpTable'>Rs.65 per packet</td></tr></tbody></table>";
-
-	productMap["product-5"]="<strong>SILVER-WHITE THALI</strong>#main-2#<table><tbody><tr>	<td class='popUpTable'><strong>COLOUR:</strong></td>	<td class='popUpTable'>Silver above and white below. This thali is thick &amp; hard than usual</td></tr><tr>	<td class='popUpTable'><strong>SHAPE:</strong></td>	<td class='popUpTable'>Round shape with 3 compartments</td></tr><tr>	<td class='popUpTable'><strong>SIZE</strong></td>	<td class='popUpTable'>13 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>25 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td>	<td class='popUpTable'>Rs.70 per packet</td></tr></tbody></table>";
-
+	productMap["product-4"]="<strong>SILVER-BROWN THALI</strong>#main-2#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td>	<td class='popUpTable'>Silver above and brown below. This thali is thick &amp; hard than usual</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td>	<td class='popUpTable'>Round shape with 3 compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>13 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>25 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.65 per packet</td></tr></tbody></table>";
+	productMap["product-5"]="<strong>SILVER-WHITE THALI</strong>#main-2#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td>	<td class='popUpTable'>Silver above and white below. This thali is thick &amp; hard than usual</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td>	<td class='popUpTable'>Round shape with 3 compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>13 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>25 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.70 per packet</td></tr></tbody></table>";
 	productMap["product-6"]="<strong>SILVER DISH (SMALL)</strong>#main-3#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Silver above and white below</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with no compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>4 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>30 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.30 per packet</td></tr></tbody></table>";
-
 	productMap["product-7"]="<strong>SILVER DISH (BIG)</strong>#main-3#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Silver above and white below</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with no compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>5 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>30 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.35 per packet</td></tr></tbody></table>";
-
 	productMap["product-8"]="<strong>PAPER DISH (SMALL)</strong>#main-3#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>White paper on both sides</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with no compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>4 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>30 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.15 per packet</td></tr></tbody></table>";
-
 	productMap["product-9"]="<strong>PAPER DISH (BIG)</strong>#main-3#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>White paper on both sides</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with no compartments</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>5 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>30 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.20 per packet</td></tr></tbody></table>";
-
 	productMap["product-10"]="<strong>SILVER DONA</strong>#main-4#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Silver above and white below</td></tr><tr><td class='popUpTable'><strong>SHAPE:</strong></td><td class='popUpTable'>Round shape with good deepness</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>3 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>30 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.10 per packet</td></tr></tbody></table>";
-
 	productMap["product-11"]="<strong>WATER GLASS</strong>#main-5#<table><tbody><tr><td class='popUpTable'><strong>MATERIAL:</strong></td><td class='popUpTable'>Paper</td></tr><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Descent colour</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>160 ml</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>50 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.60 per packet</td></tr></tbody></table>";
-
 	productMap["product-12"]="<strong>COLD DRINK GLASS</strong>#main-5#<table><tbody><tr><td class='popUpTable'><strong>MATERIAL:</strong></td><td class='popUpTable'>Paper</td></tr><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Descent colour</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>120 ml</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>50 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.40 per packet</td></tr></tbody></table>";
-
 	productMap["product-13"]="<strong>TEA GLASS</strong>#main-5#<table><tbody><tr><td class='popUpTable'><strong>MATERIAL:</strong></td><td class='popUpTable'>Paper</td></tr><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Descent colour</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>90 ml</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>50 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.25 per packet</td></tr></tbody></table>";
-
 	productMap["product-14"]="<strong>ICE-CREAM CUP</strong>#main-5#<table><tbody><tr><td class='popUpTable'><strong>MATERIAL:</strong></td><td class='popUpTable'>Paper</td></tr><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Descent colour</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>120 ml Base</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>50 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.45 per packet</td></tr></tbody></table>";
-
 	productMap["product-15"]="<strong>TISSUE PAPER</strong>#main-6#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Soft white tissue for wiping and cleaning</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>Square with 4 folds</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>100 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.45 per packet</td></tr></tbody></table>";
-
 	productMap["product-16"]="<strong>SPOON</strong>#main-7#<table><tbody><tr><td class='popUpTable'><strong>COLOUR:</strong></td><td class='popUpTable'>Bright white</td></tr><tr><td class='popUpTable'><strong>SIZE</strong></td><td class='popUpTable'>4 Inches</td></tr><tr><td class='popUpTable'><strong>QUANTITY:</strong></td><td class='popUpTable'>100 pieces per packet</td></tr><tr><td class='popUpTable'><strong>PRICE: &nbsp;</strong></td><td class='popUpTable'>Rs.25 per packet</td></tr></tbody></table>";
 
 	createProductList(productMap);
@@ -60,8 +45,7 @@ function productList(){
 			if("main-1" == $(this).attr('data-id')){
 				$(".item").show();
 			}
-		})
-		
+		})		
 		
 		$(document).on("scroll", onScroll);
  
@@ -106,13 +90,7 @@ function productList(){
 				currentLink.removeClass("navactive");
 			}
 		});
-	
-       
-        /*$(function(){
-            
-        });*/
    };
-  
 
 function createMainList(map){
 	var str="";
@@ -123,8 +101,6 @@ function createMainList(map){
 	$(".mainListClass > li:first").addClass("active");
 	productList();
 }	
-
-
 
 function createProductList(map){
 	var str="";
@@ -150,8 +126,7 @@ function displayModalDetails(obj){
 	$("#detailsModal").modal('show');	
 }
 
-function removeCart(obj){
-	
+function removeCart(obj){	
 	$(obj).parent().parent().remove();
 	checkCartStatus();
 }
@@ -219,6 +194,6 @@ function submitOrder(obj){
 		  location.reload();
 		  }
 		  
-		  });
+	});
   return false;
   }
